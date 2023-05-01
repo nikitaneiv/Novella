@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f141fc11a7b34449bab959c08164d9, type: 3}
+  m_Name: Elena
+  m_EditorClassIdentifier: 
+  speakerName: "\u0415\u043B\u0435\u043D\u0430"
+  textColor: {r: 0.6698113, g: 0.05371129, b: 0.64029765, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: c25ffbd140c8cb041ad1d125333e2ebd, type: 3}
+  prefab: {fileID: 5696508899930413527, guid: 562127995d802d94abddb027ea428395, type: 3}

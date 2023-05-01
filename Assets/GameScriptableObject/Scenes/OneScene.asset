@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fcdc58eefb0124d82f93eaf706e597, type: 3}
+  m_Name: OneScene
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 7b89ca13fb843dd4f830ce277e2afe19, type: 3}
+  nextScene: {fileID: 11400000, guid: 23253cfaeee25d74c8de906b57c58b72, type: 2}
+  sentences:
+  - text: "\u0412\u0441\u0442\u0440\u0435\u0442\u0438\u043B\u0438\u0441\u044C \u043A\u0430\u043A-\u0442\u043E
+      \u0434\u0432\u0435 \u043F\u043E\u0434\u0440\u0443\u0433\u0438"
+    speaker: {fileID: 11400000, guid: d004891b3f36d3b4cab8332b7a5f08e1, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9dfc97695274bab4eae7148f18e84e26, type: 3}
+    sound: {fileID: 0}
+  - text: "\u0415\u043B\u0435\u043D\u0430"
+    speaker: {fileID: 11400000, guid: d004891b3f36d3b4cab8332b7a5f08e1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+      actionType: 1
+      coords: {x: 200, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u0438"
+    speaker: {fileID: 11400000, guid: d004891b3f36d3b4cab8332b7a5f08e1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u0414\u0436\u0443\u043B\u0438\u044F"
+    speaker: {fileID: 11400000, guid: d004891b3f36d3b4cab8332b7a5f08e1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 4ade6336f9a45a748a5936fdb6f32722, type: 2}
+      actionType: 1
+      coords: {x: -300, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u0414\u0436\u0443\u043B\u0438\u044F!"
+    speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u0415\u043B\u0435\u043D\u0430!"
+    speaker: {fileID: 11400000, guid: 4ade6336f9a45a748a5936fdb6f32722, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u041C\u043E\u0436\u0435\u0442 \u043F\u043E\u0433\u0443\u043B\u044F\u0435\u043C
+      \u0437\u0430 \u043F\u0440\u0435\u0434\u0435\u043B\u0430\u043C\u0438 \u0437\u0430\u043C\u043A\u0430?"
+    speaker: {fileID: 11400000, guid: 4ade6336f9a45a748a5936fdb6f32722, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u0414\u0430 \u0434\u0430\u0432\u0430\u0439"
+    speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}

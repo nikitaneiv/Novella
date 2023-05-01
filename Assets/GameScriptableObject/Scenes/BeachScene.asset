@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fcdc58eefb0124d82f93eaf706e597, type: 3}
+  m_Name: BeachScene
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 2f3401559c9e4df41b17bdae642f071e, type: 3}
+  nextScene: {fileID: 0}
+  sentences:
+  - text: ...
+    speaker: {fileID: 11400000, guid: f4f23c1e750ac9440881c3504a6b5ade, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+      actionType: 1
+      coords: {x: 1900, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+      actionType: 3
+      coords: {x: 1900, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 4ade6336f9a45a748a5936fdb6f32722, type: 2}
+      actionType: 1
+      coords: {x: 1900, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 4ade6336f9a45a748a5936fdb6f32722, type: 2}
+      actionType: 5
+      coords: {x: 30, y: 0}
+      moveSpeed: 2
+    - speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+      actionType: 5
+      coords: {x: 890, y: 0}
+      moveSpeed: 2
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 188a7678ee7b80c43ab48f1c3473b1dd, type: 3}
+  - text: "\u0442\u0443\u0442 \u0442\u0430\u043A \u043A\u0440\u0430\u0441\u0438\u0432\u043E"
+    speaker: {fileID: 11400000, guid: d8580f9040969f84d844550662c5cc9a, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u0442\u044B \u043F\u0440\u0430\u0432\u0430"
+    speaker: {fileID: 11400000, guid: 4ade6336f9a45a748a5936fdb6f32722, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u0415\u043B\u0435\u043D\u0430 \u0438 \u0414\u0436\u0443\u043B\u0438\u044F
+      \u043E\u0441\u0442\u0430\u043B\u0438\u0441\u044C \u043D\u0430 \u043F\u043B\u044F\u0436\u0435"
+    speaker: {fileID: 11400000, guid: d004891b3f36d3b4cab8332b7a5f08e1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u041A\u043E\u043D\u0435\u0446!"
+    speaker: {fileID: 11400000, guid: d004891b3f36d3b4cab8332b7a5f08e1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
